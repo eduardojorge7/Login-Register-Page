@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <title>Register</title> 
+    </head>
+
+    <body>
+        <div id="container-total">
+            <div id="container-principal">
+                <div id="login-text">
+                    <span>Register</span>
+                </div>
+                <form action="/cadastrar" method="post">
+                    <div class="inputs">
+                        <input type="text" placeholder="Full name" name="nome">
+                    </div>
+                    <div class="inputs">
+                        <input type="text" placeholder="E-mail" name="email">
+                    </div>
+                    <div class="inputs">
+                        <input type="text" placeholder="Username" name="usuario">
+                    </div>
+                    <div class="inputs">
+                        <input type="password" placeholder="Password" name="senha">
+                    </div>
+                    <div class="btn-login">
+                        <button id="login-button" type="submit">Sign Up</button>
+                    </div>
+                </form>
+    
+                <div id="container-cadastro">
+                    <div id="container-text">
+                        <span>Already have an account?&nbsp;</span>
+                        <a href="index.html">Log in</a>
+                    </div>
+                </div>
+            </div>
+            <div id="container-footer"> 
+                <footer><span>&copy; Developed by Eduardo Jorge</span></footer>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+* {
+    font-family: 'Quicksand', sans-serif;}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    background: #19a8ea;
+    background: -webkit-linear-gradient(0deg, #19a8ea 0%, #1daa53 100%);
+    background: linear-gradient(0deg, #19a8ea 0%, #1daa53 100%);
+}
+
+#container-principal {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}

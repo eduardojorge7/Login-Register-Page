@@ -1,0 +1,130 @@
+div {
+    border: none !important;
+} 
+
+
+* {
+    font-family: 'Quicksand', sans-serif;}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    background: #19a8ea;
+    background: -webkit-linear-gradient(0deg, #19a8ea 0%, #1daa53 100%);
+    background: linear-gradient(0deg, #19a8ea 0%, #1daa53 100%);
+}
+
+#container-total {
+    max-width: 100vw; 
+    min-width: 25vw;
+    min-height: 50vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 4px solid black ;
+}
+
+#container-principal {
+    display: block;
+    max-width: 100vw; 
+    min-width: 25vw;
+    min-height: 50vh;
+    padding: 1%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+
+    background: rgba(255,255,255,0.35);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border: 1px solid rgba(255,255,255,0.175);
+}
+
+#login-text {
+    display: flex;
+    font-size: 2.5rem;
+
+    border: 4px solid blue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+}
+
+
+input {
+    outline: none;
+    width: 90%;
+    padding: 0.5rem;
+    margin-top: 5%;
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.35);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border: 1px solid rgba(199, 199, 199, 0.175);
+}
+
+.btn-login {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border: 2px solid blue;
+}
+
+#login-button {
+    display: flex;
+    justify-content: center;
+    width: 89%;
+    padding: 0.5rem;
+    border-radius: 15px;
+
+    background: rgba(255,255,255,0.35);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border: 1px solid rgba(199, 199, 199, 0.175);
+
+    transition: all 0.3s ease-in;
+
+}
+
+#login-button:hover {
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    width: 90%;
+
+}
+
+#container-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: 4px solid white;
+}
+
+
+#container-footer {
+    font-size: 0.8rem;
+    margin-top: 5%;
+}
