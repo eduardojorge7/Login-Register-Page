@@ -5,6 +5,13 @@ This project is a login and register page integrated with a local server develop
 Project develop with the aim of putting into practice my knowledge in HTML5, CSS3 and Node.js.
 
 
+## Prerequisite
+
+Before start, you will need to install the following tools:
+* [Node.js](https://nodejs.org/en/)
+  * [Express](https://expressjs.com/pt-br/starter/installing.html)
+  * [Body-parser](https://www.npmjs.com/package/body-parser)
+
 ## Used Stack
 
 **Front-end:** HTML5, CSS3
